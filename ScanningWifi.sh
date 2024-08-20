@@ -20,4 +20,4 @@ monitorInterface="${tarjetaRed}mon"
 echo "Targeta de red --> $monitorInterface"
 
 #quitamos el modo monitor de la antena
-sudo airmon-ng stop wlp4s0mon
+sudo airmon-ng stop $monitorInterface
